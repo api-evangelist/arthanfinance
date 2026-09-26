@@ -1,7 +1,6 @@
 aid: arthanfinance
 name: Arthanfinance
-description: 'Arthanfinance is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Arthanfinance is an Indian fintech platform focused on providing small business loans and financial services. It aims to empower entrepreneurs by offering quick loan disbursement, with over 600 crore rupees disbursed and more than 150,000 lives impacted. The company emphasizes digital solutions, partnerships with government bodies, and a growing ecosystem of products and services for SMEs.'
 url: https://raw.githubusercontent.com/api-evangelist/arthanfinance/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-26'
 modified: '2026-09-26'
 tags:
 - Company
+- Fintech
+- Loans
+- Small Business
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arthanfinance-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/arthanfinance
+  url: https://arthan.finance
+- type: Blog
+  url: https://arthan.finance/Blogs
+- type: TermsOfService
+  url: https://arthan.finance/Termsandconditions
+- type: PrivacyPolicy
+  url: https://arthan.finance/Privacypolicy
+- type: Documentation
+  url: https://arthan.finance/investor
+- type: Blog
+  url: https://arthan.finance/Blogs
+- type: TermsOfService
+  url: https://arthan.finance/Termsandconditions
+- type: PrivacyPolicy
+  url: https://arthan.finance/Privacypolicy
